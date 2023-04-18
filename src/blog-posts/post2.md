@@ -4,11 +4,12 @@ author: Szymon Łopuszyński
 date: 09.04.2023
 timeToRead: 10
 slug: post1
-imgSource: "photo2.png"
+imgSource: ../images/photo2.png
+thumbnailImage: ../images/photo2.png
 text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac nibh vel 
 ---
 ## What is Markdown2
-![photo2](./images/photo2.png)
+![photo2](https://mdg.imgix.net/assets/images/vscode.png?auto=format&fit=clip&q=40&w=1080)
 Markdown is a lightweight markup language that you can use to add formatting elem
 ents to plaintext text documents. Created by John Gruber in 2004, Markdown is now
  one of the world’s most popular markup languages.

@@ -4,12 +4,13 @@ author: Aleskandra Wolska
 date: 09.04.2023
 timeToRead: 10
 slug: post1
-imgSource: "photo3.png"
+imgSource: ../images/photo3.png
+thumbnailImage: ../images/photo3.png
 text: Lorem ipsum dolor sit amet
 ---
 ## What is Markdown3
 
-![photo3](./images/photo3.png)
+![photo3](https://mdg.imgix.net/assets/images/markdown-flowchart.png?auto=format&fit=clip&q=40&w=1080)
 Markdown is a lightweight markup language that you can use to add formatting elem
 ents to plaintext text documents. Created by John Gruber in 2004, Markdown is now
  one of the world’s most popular markup languages.

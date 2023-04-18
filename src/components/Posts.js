@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby-link"
 import { graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import Img from "gatsby-image"
 
 const Posts = ({ data }) => {
   console.log(data)
@@ -14,6 +15,9 @@ const Posts = ({ data }) => {
         {post.frontmatter.author}
         <span style={{ fontSize: '0.8em' }}> -{post.frontmatter.date}</span>
       </h4>
+      {post.frontmatter.thumbnailImage &&
+                        <Img fixed={post.frontmatter.thumbnailImage.childImageSharp.fixed} />
+                    }
       {/* <StaticImage
         src={`../images/${post.frontmatter.imgSource}`}
         alt={post.frontmatter.title}
@@ -36,6 +40,13 @@ export const query = graphql`
         title
         author
         date
+        thumbnailImage {
+          childImageSharp {
+            fixed(height: 150) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }          
       }
     }
   }
