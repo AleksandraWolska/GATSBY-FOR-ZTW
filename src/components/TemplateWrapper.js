@@ -1,15 +1,14 @@
 import React from "react"
-import PropTypes from "prop-types"
 import Helmet from "react-helmet"
-import Header from "../components/Header"
-import Posts from "../components/Posts"
 import "./template-wrapper.css"
+import SearchHeader from "./SearchHeader.js"
 
 
 export const TemplateWrapper = ({children}) => {
 
     return (
         <div>
+            <SearchHeader />
             <Helmet
                 title="Static Blog"
                 meta={[
@@ -27,15 +26,8 @@ export const TemplateWrapper = ({children}) => {
             >
                 {children()}
             </div>
-
-            {/* <Posts /> */}
         </div>
     )
 }
-
-// TemplateWrapper.propTypes = {
-//     children: PropTypes.func,
-// }
-
 
 export default TemplateWrapper

@@ -1,9 +1,9 @@
 ---
-title: Post numer 1
+title: Post trzy 3
 author: Aleskandra Wolska
 date: 09.04.2023
 timeToRead: 10
-slug: post1
+slug: blog-posts/post3
 imgSource: ../images/photo3.png
 thumbnailImage: ../images/photo3.png
 text: Lorem ipsum dolor sit amet

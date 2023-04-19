@@ -8,8 +8,9 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import SearchHeader from "./SearchHeader.js"
 
-import Header from "./Header"
+import Header from "./Header.js"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -25,7 +26,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <SearchHeader />
       <div
         style={{
           margin: `0 auto`,

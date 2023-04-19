@@ -16,8 +16,8 @@ const Posts = ({ data }) => {
         <span style={{ fontSize: '0.8em' }}> -{post.frontmatter.date}</span>
       </h4>
       {post.frontmatter.thumbnailImage &&
-                        <Img fixed={post.frontmatter.thumbnailImage.childImageSharp.fixed} />
-                    }
+        <Img fixed={post.frontmatter.thumbnailImage.childImageSharp.fixed} />
+      }
       {/* <StaticImage
         src={`../images/${post.frontmatter.imgSource}`}
         alt={post.frontmatter.title}

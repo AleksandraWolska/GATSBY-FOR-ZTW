@@ -1,9 +1,9 @@
 ---
-title: Post numer 2
+title: Post dwa 2
 author: Szymon Łopuszyński
 date: 09.04.2023
 timeToRead: 10
-slug: post1
+slug: blog-posts/post2
 imgSource: ../images/photo2.png
 thumbnailImage: ../images/photo2.png
 text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac nibh vel 

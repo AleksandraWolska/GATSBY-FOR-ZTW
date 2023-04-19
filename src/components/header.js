@@ -1,8 +1,17 @@
 import React from "react"
 import Link from "gatsby-link"
 
-const Header = () => (
-  <div
+
+export const Header = () => {
+  // <StaticQuery
+  //   query={graphql`
+  //     query SearchIndexQuery {
+  //       siteSearchIndex {
+  //         index
+  //       }
+  //     }
+  //   `}
+  return <div
     style={{
       background: "blue",
       marginBottom: "1.45rem",
@@ -26,10 +35,17 @@ const Header = () => (
             textDecoration: "none",
           }}
         >
-          Static Blog by Gatsby JS
+          Blog AS
         </Link>
       </h1>
     </div>
   </div>
-)
+  //</header>
+
+
+
+
+
+
+}
 export default Header
